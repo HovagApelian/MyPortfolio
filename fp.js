@@ -1,6 +1,7 @@
-const homeButton = document.getElementsByClassName('s1Button')[0]
-const projectsButton = document.getElementsByClassName('s2Button')[0]
-const aboutButton = document.getElementsByClassName('s3Button')[0]
+const homeButton = document.getElementsByClassName('homeButton')[0]
+const projectsButton = document.getElementsByClassName('projectsButton')[0]
+const aboutButton = document.getElementsByClassName('aboutButton')[0]
+const navBar = document.getElementsByClassName('navBar')[0]
 
 new fullpage('#fullPage', {
     autoScrolling: true,
@@ -13,10 +14,14 @@ new fullpage('#fullPage', {
             homeButton.click()
             projectsButton.classList.remove("active")
             aboutButton.classList.remove("active")
+            // navBar.classList.remove("ligthBackground")
+            // navBar.classList.add("darkBackground")
         } else if (destination.index == 1) {
             homeButton.classList.remove("active")
             projectsButton.click()
             aboutButton.classList.remove("active")
+            // navBar.classList.remove("darkBackground")
+            // navBar.classList.add("lightBackground")
         } else if (destination.index == 2) {
             homeButton.classList.remove("active")
             projectsButton.classList.remove("active")
