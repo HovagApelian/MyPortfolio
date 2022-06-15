@@ -1,0 +1,28 @@
+.name {
+    font-family: "Cairo";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+    line-height:2
+  }
+  
+  .nameText {
+    background-image: url(https://media.giphy.com/media/z2POQZ2t8s5Gzp4C7r/giphy.gif);
+    background-position: center;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 10px 0;
+  }
+
+  .homeTest {
+    font-size: 120px;
+    color: var(--main-text-color);
+  }

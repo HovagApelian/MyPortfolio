@@ -1,0 +1,95 @@
+:root {
+    --main-bg-color: #ffead6;
+    --main-text-color: #ba5e8c;
+    --alt-bg-color: black;
+    --main-text-color: ;
+    --alt-text-color: ;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	width:100%;
+    position:absolute;
+    z-index: 5;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1.2%;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+    text-decoration: none;
+    --h: 1.2em;   
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+      0 calc(-1*var(--_t, 0em)) rgba(0, 0, 0, 1), 
+      0 calc(var(--h) - var(--_t, 0em)) rgba(255, 255, 255, 1);
+    overflow: hidden;
+    transition: .3s;
+}
+
+li a:hover {
+    --_t: var(--h);
+}
+
+li.active a {
+    font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+    text-decoration: none;
+    --h: 1.2em;   
+    line-height: var(--h);
+    color: #0000;
+    text-shadow: 
+      0 calc(-1*var(--_t, 0em)) rgba(255, 255, 255, 1), 
+      0 calc(var(--h) - var(--_t, 0em)) rgba(0, 0, 0, 1);
+    overflow: hidden;
+    transition: .3s;
+}
+
+.s1 {
+    background-color: var(--main-bg-color);
+    background-size: cover;
+}
+
+.s2 {
+    background-color: seagreen;
+    background-size: cover;
+}
+
+.s3 {
+    background-color: goldenrod;
+    background-size: cover;
+}
+
+.slide1 {
+    background-color:darkmagenta;
+    background-size: cover;
+}
+
+.slide2 {
+    background-color:crimson;
+    background-size: cover;
+}
+
+.centerText {
+    text-align: center;
+    color: white;
+}
