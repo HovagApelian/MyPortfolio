@@ -3,7 +3,8 @@
     --dark-bg-color: #370632;
     --main-text-color: #3B70E5;
     --alt-text-color: #f6138c;
-    --nav-color: linear-gradient(0.25turn,#f6138c 43%, #3B70E5 57%);
+    --nav-color: #3B70E5
+    /*--nav-color: linear-gradient(0.25turn,#f6138c 43%, #3B70E5 57%);*/
 }
 
 body {
@@ -16,19 +17,26 @@ body {
     position:absolute;
     z-index: 5;
     background: var(--nav-color);
+    overflow: hidden;
+}
+
+.navTitle {
+    float: left;
+    margin-top: 12px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    margin-top: 1.2%;
+    margin-top: 15px;
     padding: 0;
+    margin-right: 30px;
     overflow: hidden;
-    text-align: center;
+    text-align: right;
 }
 
 li {
     display: inline-block;
+    overflow: hidden;
 }
 
 li a {
@@ -65,9 +73,10 @@ li.active a {
     transition: .3s;
 }
 
-.about {
-    background-color: goldenrod;
-    background-size: cover;
+.homeLottie1 {
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
 }
 
 .centerText {
