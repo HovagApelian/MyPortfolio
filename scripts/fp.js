@@ -14,18 +14,20 @@ new fullpage('#fullPage', {
             homeButton.click()
             projectsButton.classList.remove("active")
             aboutButton.classList.remove("active")
-            // navBar.classList.remove("ligthBackground")
-            // navBar.classList.add("darkBackground")
+            navBar.classList.remove("ligthBackground")
+            navBar.classList.add("darkBackground")
         } else if (destination.index == 1) {
             homeButton.classList.remove("active")
             projectsButton.click()
             aboutButton.classList.remove("active")
-            // navBar.classList.remove("darkBackground")
-            // navBar.classList.add("lightBackground")
+            navBar.classList.remove("darkBackground")
+            navBar.classList.add("lightBackground")
         } else if (destination.index == 2) {
             homeButton.classList.remove("active")
             projectsButton.classList.remove("active")
             aboutButton.click()
+            navBar.classList.remove("ligthBackground")
+            navBar.classList.add("darkBackground")
         }
     }
 })
