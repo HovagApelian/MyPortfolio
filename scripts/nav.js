@@ -6,3 +6,4 @@ $(document).ready(function(){
     document.getElementsByClass
     $(this).addClass('active').siblings().removeClass('active')
 })
+

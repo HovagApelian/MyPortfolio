@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/home.css">
-    <link rel="stylesheet" href="style/projects.css">
+    <link rel="stylesheet" href="style/projects-guavah.css">
+    <link rel="stylesheet" href="style/projects-sensible.css">
     <link rel="stylesheet" href="style/about.css">
     
     <title>Hovag Apelian</title>
@@ -54,11 +55,52 @@
  
         <div class="section">
             <div class="slide darkBackground">
-                <h1>My Mad Sick Projects</h1>
+                <div class="flex-container">
+                    <div class="flex-child">
+                        <div class="guavah-logo-container">
+                            <img class="guavah-logo-symbol" src="./pics/Logo.svg"/>
+                        </div>
+                        <h2 class="guavahStyle">guavah</h2>
+                    </div>
+
+                    <div class="flex-child">
+                        <h3>A revolutionary restaurnt ranking app that uses an original algorithm to objectively rank restaurants competitively.<br><br> 
+                            Written in a modern React-Native frontend and a sophisticated AWS cloud-based backend. <br><br>
+                            <a href="https://www.guavah.net/" target="_blank" class="guavahLink">guavah.net</a> <br><br>
+                            <div class="logo-icons">
+                                <img class="react-native-logo" src="./pics/react-native-logo.png"/>
+                                <img class="pyhon-logo" src="./pics/python-logo.png"/>
+                                <img class="aws-logo" src="./pics/aws-logo.png"/>
+                                <img class="fsq-logo" src="./pics/FSQ-logo.png"/>
+                            </div>
+                        </h3>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="slide slide2">
-                <h1>The second slide</h1>
+            <div class="slide sensible-background">
+                <div class="flex-container-sensible">
+                    <div class="flex-child-sensible">
+                        <h3>
+                            A web-app designed for CBU's EGR102 course to process and display data from sensors. <br><br>
+                            The web-app runs on an advanced AWS backend that utilizes multiple AWS services that communicate with the IoT sensors, the database, the backend, and the frontend simultaneously providing the data to the client in real time with less than 0.1s latency. <br><br>
+                            
+                            <a href="https://github.com/Devitia-Team/Sensible_Web_App" target="_blank" class="sensible-link">sensible repo</a> <br><br>
+                            <div class="logo-icons">
+                                <img class="react-native-logo" src="./pics/react-native-logo.png"/>
+                                <img class="pyhon-logo" src="./pics/python-logo.png"/>
+                                <img class="aws-logo" src="./pics/aws-logo.png"/>
+                                <img class="fsq-logo" src="./pics/FSQ-logo.png"/>
+                            </div>
+                        </h3>
+                    </div>
+                    
+                    <div class="flex-child-sensible">
+                        <img class="sensible-logo" src="./pics/sensible-logo.png"><br>
+                        <img class="sensible-pic" src="./pics/sensible-pic-1.png">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -72,7 +114,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.js" integrity="sha512-JSVRnP8UFs0ieN/cvP9v4vmW1CotIaEKKN7W+4JaKNrllZolTv2aJfVGn4BFdfZ1jRZxgTAAaXWdlZbEm9iwFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="./scripts/fp.js"></script>
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/nav.js"></script>
     <script src="./scripts/launch.js"></script>
+    <script src="./scripts/cycle-pics.js"></script>
 </body>
 </html>
+
+
+<!-- <img src="./pics/guavahBanner.png" class="guavahBanner"> -->

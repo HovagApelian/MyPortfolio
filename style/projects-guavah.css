@@ -1,0 +1,80 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--main-text-color);
+}
+
+.flex-child:nth-child(1) { 
+    flex-basis: 45%;
+    flex-basis: auto;
+    text-align: center;
+}
+
+.flex-child:nth-child(2) {
+    flex-basis: 55%;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.guavahStyle {
+    color: #E76D6C;
+    font-family: ceraPro, sans-serif;
+    font-size: 3.0rem;
+}
+
+.guavahLink {
+    color: #E76D6C;
+    align-items: center;
+}
+
+.guavah-logo-container{
+    background-color: var(--main-text-color);
+    max-width: 200px;
+    max-height: 200px;
+
+    display: grid;
+    place-content: center;
+
+    border-radius: 2rem;
+
+    overflow: hidden;
+
+    box-shadow: 0 6px 20px 0 rgba(0,0,0,0.4);
+}
+
+.guavah-logo-symbol{
+    height: 300px;
+    width: 300px;
+}
+
+.logo-icons {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.react-native-logo {
+    width: 70px;
+    height: 65px;
+}
+
+.pyhon-logo {
+    width: 65px;
+    height: 65px;
+}
+
+.fsq-logo {
+    width: 55px;
+    height: 65px;
+}
+
+.aws-logo {
+    width: 105px;
+    height: 65px;
+}
+
+
