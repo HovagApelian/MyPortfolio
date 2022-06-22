@@ -1,5 +1,5 @@
 .sensible-background {
-    background: linear-gradient(75deg, var(--main-text-color) 62%, var(--dark-bg-color) 62%)
+    background: linear-gradient(105deg, var(--dark-bg-color) 67%, var(--accent-1-color) 67%)
 }
 
 .flex-container-sensible {
@@ -15,7 +15,7 @@
     flex-basis: 55%;
     font-weight: 300;
     font-size: 20px;
-    color: var(--dark-bg-color);
+    color: var(--main-text-color);
 }
 
 .flex-child-sensible:nth-child(2) {
@@ -27,8 +27,9 @@
 .sensible-pic {
     width: 400px;
     height: 250px;
-    box-shadow: 10px 5px 25px 3px rgba(42, 44, 55, 1);
+    box-shadow: 0px 5px 25px 3px rgba(42, 44, 55, 1);
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 
 .flip-in-hor-bottom {
@@ -41,9 +42,29 @@
 }
 
 .sensible-logo {
-    width: 100px;
-    height: 60px;
-    margin-bottom: 15px;
+    width: 150px;
+    height: 90px;
+    margin-bottom: 100px;
+}
+
+.HTML-logo {
+  width: 65px;
+  height: 65px;
+}
+
+.CSS-logo {
+  width: 95px;
+  height: 70px;
+}
+
+.JS-logo {
+  width: 85px;
+  height: 75px;
+}
+
+.arch-logo {
+  width: 65px;
+  height: 65px;
 }
 
 @-webkit-keyframes flip-in-hor-bottom {
