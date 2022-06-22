@@ -5,10 +5,16 @@ const navBar = document.getElementsByClassName('navBar')[0]
 
 new fullpage('#fullPage', {
     autoScrolling: true,
+    menu: '#menu',
+	lockAnchors: false,
     anchors:['s1', 's2', 's3'],
-    controlArrows: true,
-    slidesNavigation: true,
+	navigation: true,
+	navigationPosition: 'right',
+	navigationTooltips: ['firstSlide', 'secondSlide'],
+	showActiveTooltip: false,
+	slidesNavigation: true,
 	slidesNavPosition: 'bottom',
+    controlArrows: false,
     onLeave: function(origin, destination, direction, trigger){
         if (destination.index == 0) {
             homeButton.click()

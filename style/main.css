@@ -25,6 +25,10 @@ body {
     font-family: 'Poppins', sans-serif;
 } 
 
+div {
+    resize: both;
+}
+
 a {
     text-decoration: none;
 }
