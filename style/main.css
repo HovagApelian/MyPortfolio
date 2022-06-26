@@ -6,11 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
 
 :root {
-    /* --light-bg-color: #f1f8f5;
-    --dark-bg-color: #370632;
-    --main-text-color: #3B70E5;
-    --alt-text-color: #f6138c;
-    --nav-color: #3B70E5 */
     --light-bg-color: rgb(54, 55, 68);
     --dark-bg-color: rgb(29, 30, 38);
     --main-text-color: rgb(242, 242, 242);
@@ -18,7 +13,6 @@
     --accent-2-color: #80ffea;
     --accent-3-color: #8aff80;
     --nav-color: #1d1e26;
-    /*--nav-color: linear-gradient(0.25turn,#f6138c 43%, #3B70E5 57%);*/
 }
 
 body {
