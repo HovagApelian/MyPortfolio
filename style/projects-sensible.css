@@ -1,5 +1,5 @@
 .sensible-background {
-    background: linear-gradient(to bottom, #1c2471 78%, #ff394c);
+  background-color: var(--dark-bg-color);
 }
 
 .flex-container-sensible {
@@ -22,7 +22,10 @@
     flex-basis: 45%;
     flex-basis: auto;
     text-align: center;
-}
+    background: linear-gradient(to bottom, #1c2471 78%, #ff394c);
+    height: 100vh;
+    width: 25%;
+  }   
 
 .sensible-link {
     color: var(--accent-1-color);
@@ -38,7 +41,7 @@
 .sensible-logo {
     width: 12vw;
     height: 15vh;
-    margin-bottom: 75px;
+    margin-top: 50%;
 }
 
 .HTML-logo {

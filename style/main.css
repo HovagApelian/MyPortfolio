@@ -10,9 +10,9 @@
     --dark-bg-color: rgb(29, 30, 38);
     --main-text-color: rgb(242, 242, 242);
     --accent-1-color: rgb(150, 128, 255);
-    --accent-2-color: #80ffea;
-    --accent-3-color: #8aff80;
-    --nav-color: #1d1e26;
+    --accent-2-color: rgb(128, 255, 234);
+    --accent-3-color: #F5D78C;
+    --nav-color: rgb(29, 30, 38);
 }
 
 body {
@@ -90,6 +90,47 @@ li.active a {
     transition: background-color 1s;
 }
 
+.name-logo {
+    float: left;
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    --h: 1.2em;   
+    line-height: var(--h);
+    transition: color 3s;
+}
+
+.name-logo-dynamic {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    --h: 1.2em;   
+    line-height: var(--h);
+    transition: color 3s;
+}
+
+.name-logo-color-1 {
+    color: var(--accent-3-color);
+}
+
+.name-logo-color-2 {
+    color: var(--accent-3-color);
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    --h: 1.2em;   
+    line-height: var(--h);
+    transition: color 3s;
+}
+
 .centerText {
     text-align: center;
 }
@@ -103,3 +144,53 @@ li.active a {
     background-color: var(--dark-bg-color);
     background-size: cover;
 }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+  }
+  
+  @-ms-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+  }
+  
+  @-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+  }
