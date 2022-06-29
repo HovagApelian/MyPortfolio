@@ -13,6 +13,8 @@ async function animateName() {
     const name = document.getElementsByClassName("tracking-in-expand")[0]
     await sleep(1) 
     name.classList.remove("tracking-in-expand")
+    await sleep(3)
+    arrowLottie.classList.remove("hidden")
 }
 
 animateName()

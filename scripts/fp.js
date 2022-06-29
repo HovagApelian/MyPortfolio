@@ -6,6 +6,7 @@ const nameLogo = document.getElementsByClassName('name-logo')[0]
 const nameLogoDynamic = document.getElementsByClassName('name-logo-dynamic')[0]
 const nameLogoDynamic2 = document.getElementsByClassName('name-logo-dynamic')[1]
 const blinkingCursor = document.getElementsByClassName('blinking-cursor')[0]
+const arrowLottie = document.getElementsByClassName('arrowLottie')[0]
 
 new fullpage('#fullPage', {
     autoScrolling: true,
@@ -20,6 +21,7 @@ new fullpage('#fullPage', {
 	slidesNavPosition: 'bottom',
     controlArrows: false,
     onLeave: function(origin, destination, direction, trigger) {
+        arrowLottie.classList.add("hidden")
         if (destination.index == 0) {
             homeButton.click()
             projectsButton.classList.remove("active")
