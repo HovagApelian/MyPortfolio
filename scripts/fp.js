@@ -8,6 +8,7 @@ const nameLogoDynamic2 = document.getElementsByClassName('name-logo-dynamic')[1]
 const blinkingCursor = document.getElementsByClassName('blinking-cursor')[0]
 const arrowLottie = document.getElementsByClassName('arrowLottie')[0]
 const publicationHeaderFont1 = document.getElementsByClassName('publication-header-font-1')[0]
+const flexChildPublication2 = document.getElementsByClassName('flex-child-publication-2')[0]
 
 new fullpage('#fullPage', {
     autoScrolling: true,
@@ -98,7 +99,7 @@ new fullpage('#fullPage', {
             }
         }
     },
-    onSlideLeave: function(section, origin, destination, direction, trigger){
+    onSlideLeave: async function(section, origin, destination, direction, trigger){
         if (section.anchor == 'projects') {
             if (origin.index == 0) {
                 if (destination.index == 1) {
@@ -106,6 +107,7 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                     publicationHeaderFont1.classList.remove("hidden")
+                    flexChildPublication2.classList.remove("hidden")
                 }
             }
 
@@ -115,6 +117,7 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                     publicationHeaderFont1.classList.remove("hidden")
+                    flexChildPublication2.classList.remove("hidden")
                 }
             }
 

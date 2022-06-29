@@ -139,6 +139,10 @@ li.active a {
     display: none;
 }
 
+.invisible {
+    visibility: hidden;
+}
+
 .position-relative {
     position: relative;
 }
