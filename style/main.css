@@ -11,7 +11,7 @@
     --main-text-color: rgb(242, 242, 242);
     --accent-1-color: rgb(150, 128, 255);
     --accent-2-color: rgb(128, 255, 234);
-    --accent-3-color: #F5D78C;
+    --accent-3-color: rgb(245, 215, 140);
     --nav-color: rgb(29, 30, 38);
 }
 
@@ -143,6 +143,14 @@ li.active a {
 .darkBackground {
     background-color: var(--dark-bg-color);
     background-size: cover;
+}
+
+.accent-1 {
+    color: var(--accent-1-color);
+}
+
+.accent-2 {
+    color: var(--accent-2-color);
 }
 
 @keyframes blink {
