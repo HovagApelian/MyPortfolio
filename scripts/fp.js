@@ -15,7 +15,6 @@ new fullpage('#fullPage', {
     menu: '#menu',
 	lockAnchors: false,
     anchors:['home', 'projects', 'about'],
-	navigation: true,
 	navigationPosition: 'right',
 	navigationTooltips: ['firstSlide', 'secondSlide'],
 	showActiveTooltip: false,
