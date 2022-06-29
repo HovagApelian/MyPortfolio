@@ -135,6 +135,14 @@ li.active a {
     text-align: center;
 }
 
+.hidden {
+    display: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
 .lightBackground {
     background-color: var(--light-bg-color);
     background-size: cover;

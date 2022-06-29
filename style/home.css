@@ -10,9 +10,9 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30vh;
   letter-spacing: 1px;
   line-height: 2;
+  margin-bottom: 10%;
 }
 
 .titles {
@@ -45,11 +45,12 @@ h2 {
 }
 
 .arrowLottie {
+  position: absolute;
   width: 200px;
   height: 200px;
-  transform: rotate(90deg);
-  margin-right: auto;
-  margin-left: auto;
+  transform: rotate(180deg);
+  margin-left: 43%;
+  bottom: 2%;
 }
 
 .gradient-background {
