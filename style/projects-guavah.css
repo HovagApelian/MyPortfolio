@@ -21,7 +21,8 @@
 }
 
 .guavah-content {
-    font-size: 145%;
+    font-size: 1.5rem;
+    margin-right: 5%;
 }
 
 .vl {
@@ -64,9 +65,9 @@
 
 .logo-icons-guavah {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 3%;
+    margin-right: 5%;
 } 
 
 .react-native-logo {

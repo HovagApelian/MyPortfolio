@@ -13,7 +13,7 @@
 .flex-child-sensible:nth-child(1) { 
     flex-basis: 55%;
     font-weight: 300;
-    font-size: 125%;
+    font-size: 1.2rem;
     color: var(--main-text-color);
     margin-left: 1%;
 }
