@@ -19,15 +19,11 @@ body {
     font-family: 'Poppins', sans-serif;
 } 
 
-div {
-    resize: both;
-}
-
-a {
+nav a {
     text-decoration: none;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin-top: 15px;
     padding: 0;
@@ -37,13 +33,13 @@ ul {
     white-space: nowrap;
 }
 
-li {
+nav li {
     display: inline-block;
     overflow: hidden;
     overflow-wrap: none;
 }
 
-li a {
+nav li a {
 	font-size: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -58,11 +54,11 @@ li a {
     transition: .3s;
 }
 
-li a:hover {
+nav li a:hover {
     --_t: var(--h);
 }
 
-li.active a {
+nav li.active a {
     font-size: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -163,6 +159,15 @@ li.active a {
 
 .accent-2 {
     color: var(--accent-2-color);
+}
+
+/* Modifies fullpage*/
+.fp-slidesNav ul {
+    margin-left: 47% !important;
+}
+
+.fp-slidesNav ul li a span {
+    background-color: var(--main-text-color) !important;
 }
 
 @keyframes blink {

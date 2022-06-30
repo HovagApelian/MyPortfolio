@@ -12,15 +12,10 @@ const flexChildPublication2 = document.getElementsByClassName('flex-child-public
 
 new fullpage('#fullPage', {
     autoScrolling: true,
-    menu: '#menu',
-	lockAnchors: false,
     anchors:['home', 'projects', 'about'],
-	navigationPosition: 'right',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
-	showActiveTooltip: false,
+    controlArrows: false,
 	slidesNavigation: true,
 	slidesNavPosition: 'bottom',
-    controlArrows: false,
     onLeave: function(origin, destination, direction, trigger) {
         arrowLottie.classList.add("hidden")
         if (destination.index == 0) {
