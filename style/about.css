@@ -1,4 +1,58 @@
-.about {
-    background-color: var(--light-bg-color);
-    background-size: cover;
+.flex-container-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    color: var(--main-text-color);
+}
+
+.flex-child-about:nth-child(1) { 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flex-child-about:nth-child(2) {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.about-pic {
+    width: 100px;
+    height: 300px;
+}
+
+.about-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-icon {
+    width: 5%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.in-icon {
+    width: 5%;
+}
+
+.github-icon {
+    width: 5%;
+}
+
+.phone-icon {
+    width: 5%;
+}
+
+.email-icon {
+    width: 5%;
 }
