@@ -88,6 +88,12 @@ nav li.active a {
 
 @media (max-width: 1150px) {
 
+    .name-logo-container {
+        width: 100%;
+        font-size: 16px !important;
+        margin-left: 0.5%;
+    }
+
     .navBar {
         display: flex;
         flex-direction: column;
@@ -122,18 +128,18 @@ nav li.active a {
 
     .hamburger-button {
         position: absolute;
-        top: 0.90em;
+        top: 1em;
         right: 1rem;
-        margin-left: 3%;
+        margin-right: 0.5%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 50px;
-        height: 30px;
+        width: 30px;
+        height: 20px;
     }
     
     .hamburger-button .bar {
-        height: 3px;
+        height: 1px;
         width: 100%;
         background-color: white;
         border-radius: 10px;
@@ -143,19 +149,18 @@ nav li.active a {
 
 .name-logo-container {
     margin-top: 12px;
+    font-size: 20px;
 }
 
 .name-logo {
     float: left;
     margin-left: 3%;
-    font-size: 20px;
     font-weight: 600;
     transition: color 3s;
 }
 
 .name-logo-dynamic {
     float: left;
-    font-size: 20px;
     font-weight: 600;
     transition: color 3s;
 }
@@ -175,7 +180,6 @@ nav li.active a {
     -o-animation: 1s blink step-end infinite;
     animation: 1s blink step-end infinite;
     float: left;
-    font-size: 20px;
     font-weight: 600;
     --h: 1.2em;   
     line-height: var(--h);

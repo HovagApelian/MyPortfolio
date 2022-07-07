@@ -69,32 +69,34 @@ new fullpage('#fullPage', {
         }
     },
     beforeLeave (origin, destination, direction, trigger) {
-        if (origin.index == 0) {
-            if (destination.index == 1) {
-                nameLogoDynamic2.textContent = "cd ..\\Projects\\"
-            } else if (destination.index == 2) {
-                nameLogoDynamic2.textContent = "cd ../About"
+        if (!window.matchMedia("(max-width: 1110px)").matches) {
+            if (origin.index == 0) {
+                if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Projects\\"
+                } else if (destination.index == 2) {
+                    nameLogoDynamic2.textContent = "cd ../About"
+                }
             }
-        }
-
-        if (origin.index == 1) {
-            if (destination.index == 0) {
-                nameLogoDynamic2.textContent = "cd ..\\..\\Home"
-            } else if (destination.index == 2) {
-                nameLogoDynamic2.textContent = "cd ..\\..\\About"
+    
+            if (origin.index == 1) {
+                if (destination.index == 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\..\\Home"
+                } else if (destination.index == 2) {
+                    nameLogoDynamic2.textContent = "cd ..\\..\\About"
+                }
             }
-        }
-
-        if (origin.index == 2) {
-            if (destination.index == 0) {
-                nameLogoDynamic2.textContent = "cd ..\\Home"
-            } else if (destination.index == 1) {
-                nameLogoDynamic2.textContent = "cd ..\\Projects\\"
+    
+            if (origin.index == 2) {
+                if (destination.index == 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\Home"
+                } else if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Projects\\"
+                }
             }
-        }
+          }
     },
     onSlideLeave: async function(section, origin, destination, direction, trigger){
-        if (section.anchor == 'projects') {
+        if (section.anchor == 'projects' && !window.matchMedia("(max-width: 1110px)").matches) {
             if (origin.index == 0) {
                 if (destination.index == 1) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
