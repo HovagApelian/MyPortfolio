@@ -202,6 +202,12 @@ nav li.active a {
     position: relative;
 }
 
+.flex-center  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lightBackground {
     background-color: var(--light-bg-color);
     background-size: cover;

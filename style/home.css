@@ -11,7 +11,7 @@ h2 {
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
-  line-height: 2;
+  line-height: 1.5;
   margin-bottom: 10%;
 }
 
@@ -22,6 +22,7 @@ h2 {
   display: flex;
   justify-content: center;
   opacity: 0.85;
+  line-height: 3;
 }
 
 .title1 {
@@ -49,8 +50,20 @@ h2 {
   width: 200px;
   height: 200px;
   transform: rotate(180deg);
-  margin-left: 43%;
   bottom: 2%;
+}
+
+@media (max-width: 910px) {
+  .gradient-background {
+    font-size: 80px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .titles {
+    font-size: 10px;
+    margin-top: 5%;
+  }
 }
 
 .gradient-background {
