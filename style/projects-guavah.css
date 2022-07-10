@@ -1,4 +1,4 @@
-.flex-container {
+.flex-container-guavah {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -7,35 +7,42 @@
     color: var(--main-text-color);
 }
 
-.flex-child:nth-child(1) { 
-    flex-basis: 45%;
+.flex-child-guavah:nth-child(1) { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-basis: auto;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.flex-child:nth-child(2) {
+.flex-child-guavah:nth-child(2) {
     flex-basis: 55%;
     font-weight: 300;
 }
 
 .guavah-content {
-    font-size: 1.5rem;
+    font-size: calc(10px + 1vw);
+    margin-left: 5%;
     margin-right: 5%;
+}
+
+hr {
+    display: none;
 }
 
 .vl {
     border-left: 3px solid white;
     height: 100%;
     border-color: #E76D6C;
-    margin-right: 5%;
 }
 
 .guavahStyle {
     color: #E76D6C;
     font-family: ceraPro, sans-serif;
-    font-size: 3.0rem;
+    font-size: 4vw;
 }
 
 .guavahLink {
@@ -45,22 +52,20 @@
 
 .guavah-logo-container{
     background-color: var(--main-text-color);
-    max-width: 200px;
-    max-height: 200px;
-
+    width: 17vw;
+    height: 17vw;
+    max-width: 300px;
+    max-height: 300px;
     display: grid;
     place-content: center;
-
     border-radius: 2rem;
-
     overflow: hidden;
-
     box-shadow: 0 6px 20px 0 rgba(0,0,0,0.4);
 }
 
 .guavah-logo-symbol{
-    height: 300px;
-    width: 300px;
+    height: 25vw;
+    width: 35vw;
 }
 
 .logo-icons-guavah {
@@ -71,21 +76,63 @@
 } 
 
 .react-native-logo {
-    width: 8%;
-    height: 7%;
+    width: calc(25px + 5vw);
+    height: calc(20px + 4vw);
 }
 
 .pyhon-logo {
-    width: 7%;
-    height: 7%;
-}
-
-.fsq-logo {
-    width: 5%;
-    height: 5%;
+    width: calc(22px + 4vw);
+    height: calc(22px + 4vw);
 }
 
 .aws-logo {
-    width: 12%;
-    height: 15%;
+    width: calc(35px + 7vw);
+    height: calc(20px + 4vw);
+}
+
+.fsq-logo {
+    width: calc(10px + 3vw);
+    height: (5px + 3vw);
+}
+
+@media (max-width: 1000px) {
+    .flex-container-guavah {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .guavah-content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    hr  {
+        display: flex;
+        border: none;
+        border-bottom: 2px solid #E76D6C;
+        width: 80%;
+        margin-top: 2%;
+    }
+
+    @media (max-width: 600px) {
+
+        .guavah-content {
+            font-size: calc(14px + 1vw) !important;
+        } 
+
+        .guavah-logo-container {
+            width: 27vw;
+            height: 27vw;
+        }
+    
+        .guavah-logo-symbol{
+            height: 37vw;
+            width: 47vw;
+        }
+    }
 }

@@ -90,7 +90,7 @@ nav li.active a {
 
     .name-logo-container {
         width: 100%;
-        font-size: 16px !important;
+        font-size: calc(10px + 1vw) !important;
         margin-left: 0.5%;
     }
 
@@ -149,7 +149,7 @@ nav li.active a {
 
 .name-logo-container {
     margin-top: 12px;
-    font-size: 20px;
+    font-size: calc(7px + 1vw)
 }
 
 .name-logo {
