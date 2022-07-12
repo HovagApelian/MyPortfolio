@@ -235,6 +235,34 @@ nav li.active a {
     background-color: var(--main-text-color) !important;
 }
 
+@media (max-width: 1200px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 46% !important;
+    }
+}
+
+@media (max-width: 800px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 45% !important;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 43% !important;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 41% !important;
+    }
+}
+
 @keyframes blink {
     0% {
         opacity: 1;
