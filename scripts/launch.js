@@ -36,7 +36,7 @@ cycleText()
 setInterval(cycleText, 2000)
 
 //remove some animations on smaller screen sizes
-if (window.innerWidth < 900) {
+if (window.innerWidth < 1200) {
     publicationHeaderFont1.classList.remove("hidden")
     flexChildPublication2.classList.remove("hidden")
 }
