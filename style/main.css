@@ -88,8 +88,22 @@ nav li.active a {
 
     .name-logo-container {
         width: 100%;
-        font-size: calc(10px + 1vw) !important;
+        font-size: calc(9px + 1vw) !important;
         margin-left: 0.5%;
+    }
+
+    nav li a {
+        color: var(--main-text-color);
+        text-shadow: none;
+    }
+
+    nav li.active a {
+        color: var(--accent-1-color);
+        text-shadow: none;
+    }
+    
+    nav li a:hover {
+        --_t: var(--h);
     }
 
     .navBar {
@@ -144,8 +158,8 @@ nav li.active a {
 }
 
 .name-logo-container {
-    margin-top: 12px;
-    font-size: calc(6px + 1vw)
+    margin-top: 0.5%;
+    font-size: calc(15px + 0.5vw)
 }
 
 .name-logo {
