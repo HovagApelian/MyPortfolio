@@ -76,7 +76,7 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient-animation 8s infinite;
-  font-size: calc(50px + 6vw);
+  font-size: calc(50px + 5vw);
   margin: 10px 0;
 }
 
