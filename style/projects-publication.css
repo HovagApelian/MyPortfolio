@@ -82,7 +82,8 @@
   }
 
   .flex-child-publication:nth-child(1) { 
-    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
   .flex-child-publication:nth-child(2) { 
@@ -99,19 +100,19 @@
   }
 
   .publication-header-font-2 {
-      font-size: calc(13px + 1vw);
+      font-size: calc(15px + 1vw);
   }
 
   .publication-content-font-1 {
-      font-size: calc(8px + 1vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-2 {
-      font-size: calc(8px + 1vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-3 {
-      font-size: calc(8px + 1vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-pic-1 {
