@@ -2,14 +2,12 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .flex-child-publication:nth-child(1) { 
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .flex-child-publication:nth-child(2) {
@@ -20,32 +18,32 @@
 }
 
 .publication-header-font-1 {
-    font-size: calc(15px + 1vw);
+    font-size: calc(20px + 0.75vw);
     color: var(--main-text-color);
     text-shadow: 0px 0px 20px var(--accent-1-color);
 }
 
 .publication-header-font-2 {
-    font-size: calc(15px + 1vw);
+    font-size: calc(20px + 0.75vw);
     color: var(--accent-3-color);
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .publication-content-font-1 {
-    font-size: calc(10px + 0.75vw);
+    font-size: calc(18px + 0.5vw);
     color: var(--main-text-color);
     display: inline;
 }
 
 .publication-content-font-2 {
-    font-size: calc(10px + 0.75vw);
+    font-size: calc(18px + 0.5vw);
     color: var(--accent-3-color);
     display: inline;
 }
 
 .publication-content-font-3 {
-    font-size: calc(10px + 0.75vw);
+    font-size: calc(18px + 0.5vw);
     color: var(--accent-1-color);
     display: inline;
 }
@@ -66,28 +64,46 @@
     box-shadow: 0px 0px 30px var(--accent-3-color);
 }
 
+@media (max-width: 1200px) {
+  .flex-container-publication {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container-publication {
+    margin-top: 25%;
+  }
+}
+
 @media (max-width: 400px) {
+    .flex-container-publication {
+      margin-top: 30%;
+  }
+
     .publication-header-font-1 {
-      font-size: calc(12px + 1vw);
+      font-size: calc(15px + 1vw);
+      margin-left: 5%;
+      margin-right: 5%;
   }
 
   .publication-header-font-2 {
-      font-size: calc(12px + 1vw);
+      font-size: calc(15px + 1vw);
   }
 
-    .publication-content-font-1 {
-      font-size: calc(8px + 0.75vw);
+  .publication-content-font-1 {
+      font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-2 {
-      font-size: calc(8px + 0.75vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-3 {
-      font-size: calc(8px + 0.75vw);
+      font-size: calc(10px + 1vw);
   }
 
-    .publication-pic-1 {
+  .publication-pic-1 {
       width: calc(250px + 8vw) ;
       height: calc(50px 8vw);
   }
