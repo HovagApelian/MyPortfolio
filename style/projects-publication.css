@@ -1,35 +1,32 @@
 .flex-container-publication {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     vertical-align: middle;
     position: absolute;
 }
 
 .flex-child-publication:nth-child(1) { 
-    text-align: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
 }
 
-.flex-child-publication:nth-child(2) {
-    text-align: center;
-    display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
+.flex-child-publication:nth-child(2) { 
+  margin-right: 7%;
 }
 
 .publication-header-font-1 {
-    font-size: calc(20px + 0.75vw);
+    font-size: calc(22px + 0.75vw);
     color: var(--main-text-color);
     text-shadow: 0px 0px 20px var(--accent-1-color);
 }
 
 .publication-header-font-2 {
-    font-size: calc(20px + 0.75vw);
+    font-size: calc(22px + 0.75vw);
     color: var(--accent-3-color);
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .publication-content-font-1 {
@@ -51,63 +48,14 @@
 }
 
 .publication-pic-1 {
-    width: calc(300px + 8vw) ;
-    height: calc(100px 8vw);
-    margin-bottom: 10%;
+    width: calc(300px + 12vw) ;
+    height: calc(100px 12vw);
     box-shadow: 0px 0px 30px var(--accent-3-color);
 }
 
 @media (max-height: 800px) {
   .publication-header-font-1 {
-    font-size: calc(15px + 0.5vw);
-  }
-
-  .publication-header-font-2 {
-      font-size: calc(15px + 0.5vw);
-  }
-
-  .publication-content-font-1 {
-      font-size: calc(10px + 0.5vw);
-  }
-
-  .publication-content-font-2 {
-      font-size: calc(10px + 0.5vw);
-  }
-
-  .publication-content-font-3 {
-      font-size: calc(10px + 0.5vw);
-  }
-}
-
-@media (max-height: 700px) {
-  .publication-header-font-1 {
-    font-size: calc(12px + 0.5vw);
-  }
-
-  .publication-header-font-2 {
-      font-size: calc(12px + 0.5vw);
-  }
-
-  .publication-content-font-1 {
-      font-size: calc(7px + 0.5vw);
-  }
-
-  .publication-content-font-2 {
-      font-size: calc(7px + 0.5vw);
-  }
-
-  .publication-content-font-3 {
-      font-size: calc(7px + 0.5vw);
-  }
-}
-
-
-@media (max-width: 1200px) {
-
-  .publication-header-font-1 {
     font-size: calc(20px + 0.5vw);
-    margin-left: 5%;
-    margin-right: 5%;
   }
 
   .publication-header-font-2 {
@@ -115,41 +63,55 @@
   }
 
   .publication-content-font-1 {
-      font-size: calc(15px + 0.5vw);
+      font-size: calc(18px + 0.5vw);
   }
 
   .publication-content-font-2 {
-      font-size: calc(15px + 0.5vw);
+      font-size: calc(18px + 0.5vw);
   }
 
   .publication-content-font-3 {
-      font-size: calc(15px + 0.5vw);
+      font-size: calc(18px + 0.5vw);
+  }
+}
+
+@media (max-width: 800px) {
+  .flex-container-publication {
+    flex-direction: column;
+    justify-content: center;
   }
 
+  .flex-child-publication:nth-child(1) { 
+    margin: 0;
+  }
+  
+  .flex-child-publication:nth-child(2) { 
+    margin: 0;
+  }
 }
 
 @media (max-width: 400px) {
 
   .publication-header-font-1 {
-      font-size: calc(17px + 1vw);
+      font-size: calc(15px + 1vw);
       margin-left: 5%;
       margin-right: 5%;
   }
 
   .publication-header-font-2 {
-      font-size: calc(17px + 1vw);
+      font-size: calc(15px + 1vw);
   }
 
   .publication-content-font-1 {
-      font-size: calc(12px + 1vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-2 {
-      font-size: calc(12px + 1vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-3 {
-      font-size: calc(12px + 1vw);
+      font-size: calc(10px + 1vw);
   }
 
   .publication-pic-1 {

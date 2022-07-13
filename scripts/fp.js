@@ -8,7 +8,7 @@ const nameLogoDynamic2 = document.getElementsByClassName('name-logo-dynamic')[1]
 const blinkingCursor = document.getElementsByClassName('blinking-cursor')[0]
 const arrowLottie = document.getElementsByClassName('arrowLottie')[0]
 const publicationHeaderFont1 = document.getElementsByClassName('publication-header-font-1')[0]
-const flexChildPublication2 = document.getElementsByClassName('flex-child-publication-2')[0]
+const publicationPicContainer = document.getElementsByClassName('publication-pic-container')[0]
 
 new fullpage('#fullPage', {
     licenseKey: '3KT0I-O86MH-4I9VI-7M7KK-WJCJP',
@@ -103,7 +103,7 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                     publicationHeaderFont1.classList.remove("hidden")
-                    flexChildPublication2.classList.remove("hidden")
+                    publicationPicContainer.classList.remove("hidden")
                 }
             }
 
