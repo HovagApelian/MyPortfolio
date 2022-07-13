@@ -75,13 +75,6 @@
     display: none;
 }
 
-@media (max-height: 800px) {
-    .about-text-container {
-        font-size: calc(8px + 1vw);
-        color: var(--main-text-color);
-    }    
-}
-
 
 @media (max-width: 800px) {
     .about-text-container {
