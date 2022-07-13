@@ -57,7 +57,7 @@
     box-shadow: 0px 0px 30px var(--accent-3-color);
 }
 
-@media (max-height: 1000px) {
+@media (max-height: 1100px) {
   .publication-header-font-1 {
     font-size: calc(15px + 0.5vw);
   }
