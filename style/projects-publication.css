@@ -66,19 +66,19 @@
 
 @media (max-width: 1200px) {
   .flex-container-publication {
-    margin-top: 15%;
+    margin-top: 5%;
   }
 }
 
 @media (max-width: 800px) {
   .flex-container-publication {
-    margin-top: 25%;
+    margin-top: 10%;
   }
 }
 
 @media (max-width: 400px) {
     .flex-container-publication {
-      margin-top: 30%;
+      margin-top: 15%;
   }
 
     .publication-header-font-1 {
