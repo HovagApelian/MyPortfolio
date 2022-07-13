@@ -11,6 +11,7 @@ const publicationHeaderFont1 = document.getElementsByClassName('publication-head
 const flexChildPublication2 = document.getElementsByClassName('flex-child-publication-2')[0]
 
 new fullpage('#fullPage', {
+    licenseKey: '3KT0I-O86MH-4I9VI-7M7KK-WJCJP',
     autoScrolling: true,
     anchors:['home', 'projects', 'about'],
     controlArrows: false,
@@ -36,7 +37,6 @@ new fullpage('#fullPage', {
             aboutButton.click()
             navBar.classList.remove("ligthBackground")
             navBar.classList.add("darkBackground")
-            publicationHeaderFont1.classList.remove("hidden")
         }
     }, 
     afterLoad: function(origin, destination, direction, trigger) {
