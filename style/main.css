@@ -7,9 +7,9 @@
 
 :root {
     --light-bg-color: rgb(54, 55, 68);
-    --dark-bg-color: rgb(29, 30, 38);
-    --main-text-color: rgb(242, 242, 242); /*#*/
-    --accent-1-color: rgb(150, 128, 255); /*#9680ff2f2f2f*/
+    --dark-bg-color: rgb(29, 30, 38); /*#1d1e26*/
+    --main-text-color: rgb(242, 242, 242); /*#2f2f2f*/
+    --accent-1-color: rgb(150, 128, 255); /*#9680ff*/
     --accent-2-color: rgb(128, 255, 234); /*#80ffea*/
     --accent-3-color: rgb(245, 214, 138); /*#f5d68a*/
     --nav-color: rgb(29, 30, 38);
@@ -208,6 +208,10 @@ nav li.active a {
     visibility: hidden;
 }
 
+.display-inline {
+    display: inline !important;
+}
+
 .position-relative {
     position: relative;
 }
@@ -234,6 +238,10 @@ nav li.active a {
 
 .accent-2 {
     color: var(--accent-2-color);
+}
+
+.accent-3 {
+    color: var(--accent-3-color);
 }
 
 /* Modifies fullpage*/

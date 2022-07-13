@@ -1,23 +1,13 @@
-.flex-container-about {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    color: var(--main-text-color);
-}
-
-.flex-child-about:nth-child(1) {
-
-    text-align: center;
-}
-
 .about-text-container {
     margin-left: 30vw;
     margin-right: 10vw;
     margin-bottom: 10vw;
     font-size: calc(12px + 1vw);
     color: var(--main-text-color);
+}
+
+.about-text-container h2 {
+    display: inline;
 }
 
 .about-pic {
@@ -51,14 +41,27 @@
     align-items: center;
     text-align: center;
     color: var(--main-text-color);
-    width: 6%;
+}
+
+.linkedin-icon {
+    width: 5%;
+}
+
+.github-icon {
+    width: 4.6%;
+}
+
+.phone-icon {
+    width: 4.5%;
 }
 
 .email-icon {
+    width: 5%;
     margin-right: 12%;
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 800px) {
     .about-text-container {
         margin-left: 10%;
         margin-right: 10%;
@@ -76,15 +79,22 @@
     }
 
     .about-icon {
-        width: 65%;
+        width: 55%;
     }
 
     .email-icon {
+        width: 58%;
         margin-right: 0;
         margin-bottom: 12%;
     }
 
     .about-icon p {
         display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-icon {
+        width: 65%;
     }
 }

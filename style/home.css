@@ -12,13 +12,14 @@ h2 {
   justify-content: center;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
 }
 
 .titles {
   font-weight: 400;
+  font-size: calc(5px + 1vw);
   width: 100%;
-  max-width: 907px;
+  max-width: 800px;
   display: flex;
   justify-content: center;
   opacity: 0.85;
@@ -53,16 +54,19 @@ h2 {
   bottom: 2%;
 }
 
-@media (max-width: 910px) {
-  .gradient-background {
-    font-size: 80px !important;
-  }
-}
-
 @media (max-width: 500px) {
   .titles {
-    font-size: 10px;
-    margin-top: 5%;
+    margin-top: 10%;
+  }
+
+  .title2 {
+    margin-left: 12px;
+    margin-right: 6px;
+  }
+  
+  .title3 {
+    margin-left: 6px;
+    margin-right: 12px;
   }
 }
 
@@ -72,7 +76,7 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient-animation 8s infinite;
-  font-size: 120px;
+  font-size: calc(50px + 6vw);
   margin: 10px 0;
 }
 
