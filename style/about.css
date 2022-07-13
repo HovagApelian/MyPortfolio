@@ -12,7 +12,7 @@
 
 .about-pic {
     width: (200px - 50vw);
-    height: calc(250px + 30vw);
+    height: calc(240px + 30vw);
     left: 0;
     bottom: 0;
     position: absolute;
@@ -25,7 +25,7 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 1vw;
-    gap: 9%;
+    gap: 4%;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -48,7 +48,15 @@
 }
 
 .github-icon {
-    width: calc(20px + 4vw);
+    width: calc(20px + 4.5vw);
+}
+
+.spotify-icon {
+    width: calc(20px + 5vw);
+}
+
+.instagram-icon {
+    width: calc(20px + 3.5vw);
 }
 
 .phone-icon {
@@ -56,11 +64,15 @@
 }
 
 .email-icon {
-    width: calc(20px + 4vw);
+    width: calc(20px + 3.5vw);
 }
 
 .email-icon-container {
-    margin-right: 5%;
+    margin-right: 12%;
+}
+
+.about-icon p {
+    display: none;
 }
 
 
@@ -87,19 +99,27 @@
     }
 
     .linkedin-icon {
-        width: calc(30px + 6.5vw);
+        width: calc(10px + 6vw);
     }
     
     .github-icon {
-        width: calc(30px + 6.5vw);
+        width: calc(10px + 6.7vw);
+    }
+
+    .spotify-icon {
+        width: calc(10px + 7.5vw);
+    }
+    
+    .instagram-icon {
+        width: calc(10px + 6vw);
     }
     
     .phone-icon {
-        width: calc(30px + 6.5vw);
+        width: calc(10px + 7vw);
     }
     
     .email-icon {
-        width: calc(30px + 6.5vw);
+        width: calc(10px + 6vw);
     }
 
     .about-icon p {

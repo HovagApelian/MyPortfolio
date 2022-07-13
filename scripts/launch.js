@@ -23,7 +23,7 @@ animateName()
 
 
 //Cycle words - abour page
-const textList = ["Hello", "Բարեւ", "مرحبا"]
+const textList = ["Hello", "Բարեւ", "Hola", "مرحبا"]
 const cycleWords = document.getElementsByClassName("cycle-words")[0]
 
 let i = 0;

@@ -8,7 +8,7 @@
 :root {
     --light-bg-color: rgb(54, 55, 68);
     --dark-bg-color: rgb(29, 30, 38); /*#1d1e26*/
-    --main-text-color: rgb(242, 242, 242); /*#2f2f2f*/
+    --main-text-color: rgb(242, 242, 242); /*#f2f2f2*/
     --accent-1-color: rgb(150, 128, 255); /*#9680ff*/
     --accent-2-color: rgb(128, 255, 234); /*#80ffea*/
     --accent-3-color: rgb(245, 214, 138); /*#f5d68a*/
@@ -214,6 +214,11 @@ nav li.active a {
 
 .position-relative {
     position: relative;
+}
+
+.entire-page {
+    width: 100%;
+    height: 100%;
 }
 
 .flex-center  {

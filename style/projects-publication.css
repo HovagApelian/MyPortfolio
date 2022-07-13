@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     vertical-align: middle;
+    position: absolute;
 }
 
 .flex-child-publication:nth-child(1) { 
@@ -47,15 +48,6 @@
     font-size: calc(18px + 0.5vw);
     color: var(--accent-1-color);
     display: inline;
-}
-
-.flex-container-publication-2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 200px;
-    align-items: center;
 }
 
 .publication-pic-1 {
