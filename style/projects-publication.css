@@ -20,32 +20,32 @@
 }
 
 .publication-header-font-1 {
-    font-size: calc(18px + 0.75vw);
+    font-size: calc(20px + 0.75vw);
     color: var(--main-text-color);
     text-shadow: 0px 0px 20px var(--accent-1-color);
 }
 
 .publication-header-font-2 {
-    font-size: calc(18px + 0.75vw);
+    font-size: calc(20px + 0.75vw);
     color: var(--accent-3-color);
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .publication-content-font-1 {
-    font-size: calc(16px + 0.5vw);
+    font-size: calc(18px + 0.5vw);
     color: var(--main-text-color);
     display: inline;
 }
 
 .publication-content-font-2 {
-    font-size: calc(16px + 0.5vw);
+    font-size: calc(18px + 0.5vw);
     color: var(--accent-3-color);
     display: inline;
 }
 
 .publication-content-font-3 {
-    font-size: calc(16px + 0.5vw);
+    font-size: calc(18px + 0.5vw);
     color: var(--accent-1-color);
     display: inline;
 }
