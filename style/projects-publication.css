@@ -93,25 +93,25 @@
 @media (max-width: 400px) {
 
   .publication-header-font-1 {
-      font-size: calc(15px + 1vw);
+      font-size: calc(13px + 1vw);
       margin-left: 5%;
       margin-right: 5%;
   }
 
   .publication-header-font-2 {
-      font-size: calc(15px + 1vw);
+      font-size: calc(13px + 1vw);
   }
 
   .publication-content-font-1 {
-      font-size: calc(10px + 1vw);
+      font-size: calc(8px + 1vw);
   }
 
   .publication-content-font-2 {
-      font-size: calc(10px + 1vw);
+      font-size: calc(8px + 1vw);
   }
 
   .publication-content-font-3 {
-      font-size: calc(10px + 1vw);
+      font-size: calc(8px + 1vw);
   }
 
   .publication-pic-1 {
