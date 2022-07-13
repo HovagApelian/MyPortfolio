@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
     color: var(--main-text-color);
+    vertical-align: middle;
 }
 
 .flex-child-guavah:nth-child(1) { 

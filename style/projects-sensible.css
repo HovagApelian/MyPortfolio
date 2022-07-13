@@ -8,6 +8,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    vertical-align: middle;
 }
 
 .flex-child-sensible:nth-child(1) { 
