@@ -113,7 +113,7 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                     publicationHeaderFont1.classList.remove("hidden")
-                    flexChildPublication2.classList.remove("hidden")
+                    publicationPicContainer.classList.remove("hidden")
                 }
             }
 

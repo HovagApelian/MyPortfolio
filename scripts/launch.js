@@ -27,9 +27,9 @@ const cycleWords = document.getElementsByClassName("cycle-words")[0]
 const currentTime = new Date().getHours()
 let textList
 
-if (currentTime >= 4 && currentTime < 12) {
+if (currentTime >= 5 && currentTime < 12) {
     textList = ["Good morning", "Բարի լոյս", "Buenos Dias", "صباح الخير"]
-} else if (currentTime >= 16 && currentTime < 20) {
+} else if (currentTime >= 18 && currentTime < 20) {
     textList = ["Good evening", "Բարեի իրիկուն", "Buenos noches", "مساء الخير"]
 } else {
     textList = ["Hello", "Բարեւ", "Hola", "مرحبا", "What's good", "سلام عليكم"]
