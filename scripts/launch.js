@@ -29,7 +29,7 @@ let textList
 
 if (currentTime >= 5 && currentTime < 12) {
     textList = ["Good morning", "Բարի լոյս", "Buenos Dias", "صباح الخير"]
-} else if (currentTime >= 12 && < 18) {
+} else if (currentTime >= 12 && currentTime < 18) {
     textList = ["Good afternoon", "Բարի կեսօր", "Buenos Tardes", "مرحبا"]
 } else if (currentTime >= 18 && currentTime < 20) {
     textList = ["Good evening", "Բարի իրիկուն", "Buenos noches", "مساء الخير"]
