@@ -2,12 +2,16 @@
     margin-left: 30vw;
     margin-right: 10vw;
     margin-bottom: 10vw;
-    font-size: calc(12px + 1vw);
+    font-size: calc(7px + 0.75vw);
     color: var(--main-text-color);
 }
 
 .about-text-container h2 {
     display: inline;
+}
+
+.cycle-words {
+    font-size: calc(25px + 1vw) !important;
 }
 
 .about-pic {
