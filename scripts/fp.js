@@ -9,6 +9,7 @@ const blinkingCursor = document.getElementsByClassName('blinking-cursor')[0]
 const arrowLottie = document.getElementsByClassName('arrowLottie')[0]
 const publicationHeaderFont1 = document.getElementsByClassName('publication-header-font-1')[0]
 const publicationPicContainer = document.getElementsByClassName('publication-pic-container')[0]
+const aboutPicContainer = document.getElementsByClassName('about-pic-container')[0]
 
 new fullpage('#fullPage', {
     licenseKey: '3KT0I-O86MH-4I9VI-7M7KK-WJCJP',
@@ -37,13 +38,16 @@ new fullpage('#fullPage', {
             aboutButton.click()
             navBar.classList.remove("ligthBackground")
             navBar.classList.add("darkBackground")
+            aboutPicContainer.classList.remove("hidden")
         }
     }, 
     afterLoad: function(origin, destination, direction, trigger) {
         nameLogoDynamic2.textContent = ""
         if (destination.index == 0) {
             nameLogoDynamic.textContent = "Home>"
+            aboutPicContainer.classList.add("hidden")
         } else if (destination.index == 1) {
+            aboutPicContainer.classList.add("hidden")
             activeSlide = fullpage_api.getActiveSlide().index
             if (activeSlide == 0) {
                 nameLogoDynamic.textContent = "Projects\\Guavah>"
