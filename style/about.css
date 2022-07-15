@@ -164,6 +164,10 @@
         width: 65%;
     }
 
+    .about-text-container {
+        margin-top: 5% !important;
+    }
+
     @media (max-height: 850px) {
         .about-text-container {
             font-size: calc(4px + 0.5vw + 0.5vh);
@@ -180,11 +184,9 @@
 
     @media (max-height: 750px) {
         .about-text-container {
-            margin-top: 10% !important;
+            margin-top: 15% !important;
         }
-    }
 
-    @media (max-height: 750px) {
         .about-pic {
             height: calc(200px + 7vw + 10vh);
         }
