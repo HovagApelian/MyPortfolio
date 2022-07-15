@@ -47,8 +47,8 @@
 }
 
 .aws-logo-sensible {
-  width: calc(55px + 5vw);
-  height: calc(40px + 2vw);
+  width: calc(60px + 5vw);
+  height: calc(45px + 2vw);
 }
 
 .arch-logo {
@@ -64,12 +64,12 @@
   .flex-child-sensible:nth-child(1) {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: calc(11px + 1vw);
+    font-size: calc(5px + 1vw + 1vh);
   }
 
   .flex-child-sensible:nth-child(2) {
-    width: 60vw;
-    height: 20vw;
+    width: calc(250px + 3vw + 3vh);
+    height: calc(60px + 2vw + 2vh);
     margin-right: 0px;
   }
 

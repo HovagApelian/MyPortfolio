@@ -75,7 +75,7 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .flex-container-publication {
     flex-direction: column;
     justify-content: center;
