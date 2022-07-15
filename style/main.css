@@ -26,8 +26,7 @@ a {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 50px;
     overflow: hidden;
     text-align: right;
     white-space: nowrap;
@@ -55,23 +54,14 @@ nav li a {
     transition: .3s;
 }
 
-nav li a:hover {
-    --_t: var(--h);
-}
-
 nav li.active a {
-    font-size: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
-    text-decoration: none;
-    --h: 1.2em;   
-    line-height: var(--h);
-    color: #0000;
     text-shadow: 
       0 calc(-1*var(--_t, 0em)) var(--accent-1-color), 
       0 calc(var(--h) - var(--_t, 0em)) rgb(242, 242, 242);
-    overflow: hidden;
-    transition: .3s;
+}
+
+nav li a:hover {
+    --_t: var(--h);
 }
 
 .navBar {
@@ -94,7 +84,14 @@ nav li.active a {
     .name-logo-container {
         width: 100%;
         font-size: calc(9px + 1vw) !important;
-        margin-left: 0.5%;
+    }
+
+    .name-logo {
+        margin-left: 16px !important;
+    }
+
+    nav ul {
+        margin-right: 0px;
     }
 
     nav li a {
@@ -143,14 +140,14 @@ nav li.active a {
 
     .hamburger-button {
         position: absolute;
-        top: 1em;
+        top: 1rem;
         right: 1rem;
-        margin-right: 3%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 30px;
         height: 20px;
+        vertical-align: middle;
     }
     
     .hamburger-button .bar {
@@ -163,13 +160,13 @@ nav li.active a {
 }
 
 .name-logo-container {
-    margin-left: 3%;
     font-size: calc(15px + 0.5vw);
     height: 100%;
     vertical-align: middle;
 }
 
 .name-logo {
+    margin-left: 70px;
     float: left;
     font-weight: 600;
     transition: color 3s;
