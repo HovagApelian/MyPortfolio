@@ -1,9 +1,7 @@
 @font-face {
     font-family: ceraPro;
-    src: url(./Cera_Pro_Bold.otf);
+    src: url("../fonts/Cera_Pro_Bold.otf")
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
 
 :root {
     --light-bg-color: rgb(54, 55, 68);

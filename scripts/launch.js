@@ -29,15 +29,15 @@ let textList
 
 if (currentTime >= 5 && currentTime < 12) {
     textList = ["Good morning", "Բարի լոյս", "Buenos Dias", "صباح الخير"]
-} else if (currentTime >= 12 && currentTime < 18) {
-    textList = ["Good afternoon", "Բարի կեսօր", "Buenos Tardes", "مرحبا"]
+} else if (currentTime >= 12 && currentTime < 16) {
+    textList = ["Good afternoon", "Բարեւ", "Buenos Tardes", "مرحبا"]
 } else if (currentTime >= 18 && currentTime < 22) {
     textList = ["Good evening", "Բարի իրիկուն", "Buenos noches", "مساء الخير"]
 } else {
     textList = ["Hello", "Բարեւ", "Hola", "مرحبا", "What's good", "سلام عليكم"]
 }
 
-let i = 0;
+let i = 0
 const cycleText = () => {
   cycleWords.innerHTML = textList[i]
   i = ++i % textList.length
