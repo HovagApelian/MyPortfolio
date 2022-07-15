@@ -37,6 +37,7 @@ nav li {
     display: inline-block;
     overflow: hidden;
     overflow-wrap: none;
+    vertical-align: middle;
 }
 
 nav li a {
@@ -75,6 +76,10 @@ nav li.active a {
 
 .navBar {
     font-weight: 400;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 	width:100%;
     min-height: 57px;
     max-height: 57px;
@@ -159,10 +164,8 @@ nav li.active a {
 
 .name-logo-container {
     margin-left: 3%;
-    margin-top: 0.5%;
     font-size: calc(15px + 0.5vw);
     height: 100%;
-    position: absolute;
     vertical-align: middle;
 }
 
@@ -170,14 +173,12 @@ nav li.active a {
     float: left;
     font-weight: 600;
     transition: color 3s;
-    vertical-align: middle;
 }
 
 .name-logo-dynamic {
     float: left;
     font-weight: 600;
     transition: color 3s;
-    vertical-align: middle;
 }
 
 .name-logo-color-1 {
