@@ -159,9 +159,10 @@ nav li.active a {
 
 .name-logo-container {
     margin-left: 3%;
+    margin-top: 0.5%;
     font-size: calc(15px + 0.5vw);
     height: 100%;
-    position: relative;
+    position: absolute;
     vertical-align: middle;
 }
 
