@@ -20,14 +20,22 @@
 }
 
 .flex-child-sensible:nth-child(2) {
-    flex-basis: 45%;
     flex-basis: auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(to bottom, #1c2471 78%, #ff394c);
-    width: 25%;
+    width: 22%;
     height: 80%;
     margin-right: 1%;
   }   
+
+.sensible-logo {
+  width: 13vw;
+  height: 8vw;
+  margin-bottom: 150px;
+}
 
 .sensible-link {
     color: var(--accent-1-color);
@@ -40,12 +48,6 @@
   align-items: center;
 } 
 
-.sensible-logo {
-    width: 13vw;
-    height: 8vw;
-    margin-top: 25%;
-}
-
 .aws-logo-sensible {
   width: calc(60px + 5vw);
   height: calc(35px + 3vw);
@@ -54,6 +56,12 @@
 .arch-logo {
   width: calc(30px + 3vw);
   height: calc(30px + 3vw);
+}
+
+@media (max-height: 750px) {
+    .flex-child-sensible:nth-child(1) { 
+      font-size: calc(7px + 0.75vw);
+    }
 }
 
 @media (max-width: 1000px) {
@@ -76,7 +84,7 @@
   .sensible-logo {
     width: 30%;
     height: 55%;
-    margin-top: 5%;
+    margin-top: 45%;
   }
   
 }
