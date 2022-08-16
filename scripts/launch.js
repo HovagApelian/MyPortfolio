@@ -45,9 +45,3 @@ const cycleText = () => {
 
 cycleText()
 setInterval(cycleText, 3000)
-
-//remove some animations on smaller screen sizes
-if (window.innerWidth < 1000) {
-    publicationHeaderFont1.classList.remove("hidden")
-    publicationPicContainer.classList.remove("hidden")
-}
