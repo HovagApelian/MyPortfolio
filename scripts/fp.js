@@ -106,8 +106,6 @@ new fullpage('#fullPage', {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
-                    publicationHeaderFont1.classList.remove("hidden")
-                    publicationPicContainer.classList.remove("hidden")
                 }
             }
 
@@ -116,8 +114,6 @@ new fullpage('#fullPage', {
                     nameLogoDynamic2.textContent = "cd ..\\Guavah"
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
-                    publicationHeaderFont1.classList.remove("hidden")
-                    publicationPicContainer.classList.remove("hidden")
                 }
             }
 

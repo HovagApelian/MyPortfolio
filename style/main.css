@@ -4,12 +4,12 @@
 }
 
 :root {
-    --light-bg-color: rgb(54, 55, 68);
+    --light-bg-color: rgb(54, 55, 68); /*#363744*/
     --dark-bg-color: rgb(29, 30, 38); /*#1d1e26*/
     --main-text-color: rgb(242, 242, 242); /*#f2f2f2*/
     --accent-1-color: rgb(150, 128, 255); /*#9680ff*/
-    --accent-2-color: rgb(128, 255, 234); /*#80ffea*/
-    --accent-3-color: rgb(245, 214, 138); /*#f5d68a*/
+    --accent-2-color: rgb(255, 128, 128); /*#80ffea*/
+    --accent-3-color: rgb(128, 255, 234); /*#f5d68a*/
     --nav-color: rgb(29, 30, 38);
 }
 

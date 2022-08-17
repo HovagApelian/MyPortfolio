@@ -2,6 +2,11 @@ h2 {
   margin: 0px;
 }
 
+.pattern-background {
+  background-color: #363744;
+  background-image: url('../pics/pattern.svg');
+}
+
 .name {
   font-weight: 600;
   text-align: center;
@@ -71,7 +76,7 @@ h2 {
 }
 
 .gradient-background {
-  background: radial-gradient(#80ffea,#9680ff, #80ffea);
+  background: radial-gradient(#FF8080,#9680ff, #FF8080);
   background-size: 120% 120%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
