@@ -37,7 +37,7 @@ hr {
 .vl {
     border-left: 3px solid white;
     height: 100%;
-    border-color: #E76D6C;
+    border-color: var(--accent-1-color);
 }
 
 .guavahStyle {
@@ -47,7 +47,7 @@ hr {
 }
 
 .guavahLink {
-    color: #E76D6C;
+    color: var(--accent-2-color);
     align-items: center;
 }
 
@@ -77,8 +77,9 @@ hr {
 } 
 
 .react-native-logo {
-    width: calc(20px + 5vw);
-    height: calc(20px + 4vw);
+    width: calc(10px + 3.5vw);
+    height: calc(10px + 3.2vw);
+    color: var(--accent-1-color);
 }
 
 .pyhon-logo {
