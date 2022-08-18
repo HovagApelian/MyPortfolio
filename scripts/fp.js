@@ -13,6 +13,8 @@ const aboutPicContainer = document.getElementsByClassName('about-pic-container')
 
 new fullpage('#fullPage', {
     licenseKey: '3KT0I-O86MH-4I9VI-7M7KK-WJCJP',
+    scrollHorizontallyKey: 'N0dhRzkyWVdkaGNHVnNhV0Z1TG1SbGRnPT1iNl9NQ0NjMk55YjJ4c1NHOXlhWHB2Ym5SaGJHeDVLV2o=',
+    scrollHorizontally: true,
     autoScrolling: true,
     anchors:['home', 'projects', 'about'],
     controlArrows: false,
