@@ -2,8 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: var(--accent-1-color);
-    font-size: calc(10px + 0.75vw);
+    font-size: calc(15px + 1vw);
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
 }
 
