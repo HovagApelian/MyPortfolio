@@ -2,6 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--accent-2-color)
+    color: var(--accent-1-color);
+    font-size: calc(10px + 0.75vw);
+    margin-bottom: 5%;
+}
+
+.arrowLottie2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    transform: rotate(90deg);
+    bottom: 5%;
+}
+
+.pattern-background-2 {
+    background-color: var(--dark-bg-color);
+    background-image: url('../pics/pattern2.svg');
 }
 

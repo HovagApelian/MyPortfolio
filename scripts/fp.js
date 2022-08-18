@@ -50,10 +50,12 @@ new fullpage('#fullPage', {
             aboutPicContainer.classList.add("hidden")
             activeSlide = fullpage_api.getActiveSlide().index
             if (activeSlide == 0) {
-                nameLogoDynamic.textContent = "Projects\\Guavah>"
+                nameLogoDynamic.textContent = "Projects>"
             } else if (activeSlide == 1) {
-                nameLogoDynamic.textContent = "Projects\\Sensible>"
+                nameLogoDynamic.textContent = "Projects\\Guavah>"
             } else if (activeSlide == 2) {
+                nameLogoDynamic.textContent = "Projects\\Sensible>"
+            } else if (activeSlide == 3) {
                 nameLogoDynamic.textContent = "Projects\\Research Paper>"
             }
         } else if (destination.index == 2) {
@@ -64,10 +66,12 @@ new fullpage('#fullPage', {
         nameLogoDynamic2.textContent = ""
         if (section.anchor == 'projects') {
             if (destination.index == 0) {
-                nameLogoDynamic.textContent = "Projects\\Guavah>"
+                nameLogoDynamic.textContent = "Projects>"
             } else if (destination.index == 1) {
-                nameLogoDynamic.textContent = "Projects\\Sensible>"
+                nameLogoDynamic.textContent = "Projects\\Guavah>"
             } else if (destination.index == 2) {
+                nameLogoDynamic.textContent = "Projects\\Sensible>"
+            } else if (destination.index == 3) {
                 nameLogoDynamic.textContent = "Projects\\Research Paper>"
             }
         }
@@ -102,7 +106,9 @@ new fullpage('#fullPage', {
     onSlideLeave: async function(section, origin, destination, direction, trigger){
         if (section.anchor == 'projects' && !window.matchMedia("(max-width: 1110px)").matches) {
             if (origin.index == 0) {
-                if (destination.index == 2) {
+                if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
@@ -110,7 +116,9 @@ new fullpage('#fullPage', {
             }
 
             if (origin.index == 1) {
-                if (destination.index == 2) {
+                if (destination.index == 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\"
+                } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
@@ -118,7 +126,7 @@ new fullpage('#fullPage', {
             }
 
             if (origin.index == 2) {
-                if (destination.index = 0) {
+                if (destination.index == 0) {
                     nameLogoDynamic2.textContent = "cd ..\\"
                 } else if (destination.index == 1) {
                     nameLogoDynamic2.textContent = "cd ..\\Guavah"
@@ -128,7 +136,9 @@ new fullpage('#fullPage', {
             }
 
             if (origin.index == 3) {
-                if (destination.index == 1) {
+                if (destination.index == 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\"
+                } else if (destination.index == 1) {
                     nameLogoDynamic2.textContent = "cd ..\\Guavah"
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
