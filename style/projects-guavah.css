@@ -25,9 +25,13 @@
 }
 
 .guavah-content {
-    font-size: calc(10px + 1vw);
-    margin-left: 5%;font-size: calc(10px + 1vw);
+    margin-left: 5%;
     margin-right: 5%;
+}
+
+.guavah-content h3 {
+    display: inline;
+    font-size: calc(10px + 0.75vw);
 }
 
 hr {
@@ -73,34 +77,35 @@ hr {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    gap: 20%;
     margin-right: 5%;
 } 
 
 .react-native-logo {
-    width: calc(18px + 2.5vw);
-    height: calc(18px + 2.5vw);
+    width: calc(26px + 2vw);
+    height: calc(26px + 2vw);
 }
 
 .pyhon-logo {
-    width: calc(18px + 2.5vw);
-    height: calc(18px + 2.5vw);
+    width: calc(25px + 2vw);
+    height: calc(25px + 2vw);
 }
 
 .aws-logo {
-    width: calc(18px + 3vw);
-    height: calc(18px + 3vw);
+    width: calc(25px + 3vw);
+    height: calc(25px + 3vw);
 }
 
 .fsq-logo {
-    width: calc(10px + 2.5vw);
-    height: (5px + 2.5vw);
+    width: calc(18px + 2vw);
+    height: (12px + 2vw);
 }
 
 @media (max-height: 750px) {
-    .guavah-content {
-        font-size: calc(10px + 0.75vw);;
+    .guavah-content h3 {
+        font-size: calc(10px + 0.75vw);
     }
+    
 }
 
 @media (max-width: 1000px) {
@@ -128,10 +133,9 @@ hr {
     }
 
     @media (max-width: 600px) {
-
-        .guavah-content {
-            font-size: calc(10px + 1vw) !important;
-        } 
+        .guavah-content h3 {
+            font-size: calc(10px + 0.75vw) !important;
+        }
 
         .guavah-logo-container {
             width: 27vw;
@@ -144,7 +148,8 @@ hr {
         }
 
         .logo-icons-guavah {
-            width: 50%;
+            gap: 15%;
         } 
+        
     }
 }
