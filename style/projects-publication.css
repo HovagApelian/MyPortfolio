@@ -18,6 +18,10 @@
   margin-right: 5%;
 }
 
+.publication-content h2 {
+  display: inline;
+}
+
 .publication-header-font-1 {
     font-size: calc(10px + 1vw);
     color: var(--main-text-color);
@@ -41,18 +45,15 @@
 
 @media (max-height: 750px) {
   .publication-header-font-1 {
-    font-size: calc(10px + 0.75vw);
-    
+    font-size: calc(10px + 1vw);
   }
 
   .publication-header-font-2 {
-    font-size: calc(10px + 0.75vw);
-    
+    font-size: calc(10px + 1vw);
   }
 
   .publication-content-font-1 {
-      font-size: calc(10px + 0.75vw);
-      
+      font-size: calc(10px + 1vw);
   }
 }
 

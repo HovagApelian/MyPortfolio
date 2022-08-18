@@ -27,10 +27,9 @@
 .about-icons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 7%;
-    margin-left: 12%;
+    gap: 8%;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -172,7 +171,7 @@
     }
     
     .email-icon {
-        width: calc(10px + 6vw);
+        width: calc(12px + 6vw);
     }
 
     .about-icon p {

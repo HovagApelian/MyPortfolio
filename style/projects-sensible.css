@@ -28,10 +28,14 @@
 }
 
 .sensible-content {
-  font-size: calc(10px + 1vw);
   margin-left: 5%;
   margin-right: 5%;
   color: var(--main-text-color);
+}
+
+.sensible-content h3 {
+  display: inline;
+  font-size: calc(10px + 1vw);
 }
 
 .sensible-logo {
@@ -46,22 +50,22 @@
 .logo-icons-sensible {
   display: inline-flex;
   justify-content: space-between;
+  gap: 12%;
   align-items: center;
-  width: 55%;
 } 
 
 .aws-logo-sensible {
-  width: calc(18px + 3vw);
-  height: calc(18px + 3vw);
+  width: calc(25px + 3vw);
+  height: calc(25px + 3vw);
 }
 
 .arch-logo {
-  width: calc(15px + 2.5vw);
-  height: calc(15px + 2.5vw);
+  width: calc(20px + 2.5vw);
+  height: calc(20px + 2.5vw);
 }
 
 @media (max-height: 750px) {
-    .sensible-content {
+    .sensible-content h3 {
       font-size: calc(10px + 0.75vw);
     }
 
@@ -80,7 +84,6 @@
     margin-left: 10%;
     margin-right: 10%;
   }
-  
 }
 
 @media  (max-width: 600px) {
@@ -89,7 +92,12 @@
     margin-right: 10%;
   }
 
-  .sensible-content {
-    font-size: calc(10px + 1vw) !important;
+  .sensible-content h3 {
+    font-size: calc(10px + 0.75vw) !important;
   }
+
+  .logo-icons-sensible {
+    gap: 10%;
+  } 
+  
 }

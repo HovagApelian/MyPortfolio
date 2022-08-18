@@ -9,7 +9,7 @@
     --main-text-color: rgb(242, 242, 242); /*#f2f2f2*/
     --accent-1-color: rgb(150, 128, 255); /*#9680ff*/
     --accent-2-color: rgb(255, 128, 128); /*#80ffea*/
-    --accent-3-color: rgb(128, 255, 234); /*#f5d68a*/
+    --accent-3-color: rgb(245, 214, 138); /*#f5d68a*/
     --nav-color: rgb(29, 30, 38);
 }
 
@@ -220,6 +220,10 @@ nav li a:hover {
 .entire-page {
     width: 100%;
     height: 100%;
+}
+
+.display-inline {
+    display: inline;
 }
 
 .flex-center  {
