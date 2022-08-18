@@ -8,7 +8,7 @@
     --dark-bg-color: rgb(29, 30, 38); /*#1d1e26*/
     --main-text-color: rgb(242, 242, 242); /*#f2f2f2*/
     --accent-1-color: rgb(150, 128, 255); /*#9680ff*/
-    --accent-2-color: rgb(255, 128, 128); /*#80ffea*/
+    --accent-2-color: rgb(255, 128, 128); /*#ff8080*/
     --accent-3-color: rgb(245, 214, 138); /*#f5d68a*/
     --nav-color: rgb(29, 30, 38);
 }
@@ -263,6 +263,28 @@ nav li a:hover {
     background-color: var(--main-text-color) !important;
 }
 
+@media (max-width: 2600px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 48.5% !important;
+    }
+}
+
+@media (max-width: 2200px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 48% !important;
+    }
+}
+
+@media (max-width: 1800px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 47% !important;
+    }
+}
+
+
 @media (max-width: 1200px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
@@ -270,24 +292,59 @@ nav li a:hover {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
         margin-left: 45% !important;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 44% !important;
+    }
+}
+
+@media (max-width: 700px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
         margin-left: 43% !important;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
         margin-left: 41% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 40% !important;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 39% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 35% !important;
+    }
+}
+
+@media (max-width: 300px) {
+    /* Modifies fullpage*/
+    .fp-slidesNav ul {
+        margin-left: 30% !important;
     }
 }
 
