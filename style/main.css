@@ -273,7 +273,7 @@ nav li a:hover {
 @media (max-width: 2200px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
-        margin-left: 47.5% !important;
+        margin-left: 48% !important;
     }
 }
 
