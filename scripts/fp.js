@@ -102,25 +102,35 @@ new fullpage('#fullPage', {
     onSlideLeave: async function(section, origin, destination, direction, trigger){
         if (section.anchor == 'projects' && !window.matchMedia("(max-width: 1110px)").matches) {
             if (origin.index == 0) {
-                if (destination.index == 1) {
+                if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
-                } else if (destination.index == 2) {
+                } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
 
             if (origin.index == 1) {
-                if (destination.index == 0) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
-                } else if (destination.index == 2) {
+                if (destination.index == 2) {
+                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
 
             if (origin.index == 2) {
-                if (destination.index == 0) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                if (destination.index = 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\"
                 } else if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                } else if (destination.index == 3) {
+                    nameLogoDynamic2.textContent = "cd ..\\Research Paper"
+                }
+            }
+
+            if (origin.index == 3) {
+                if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 }
             }
