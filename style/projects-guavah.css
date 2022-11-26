@@ -81,6 +81,14 @@ hr {
     margin-right: 5%;
 } 
 
+.logo-icons-guavah-2 {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    margin-right: 5%;
+} 
+
 .react-native-logo {
     width: calc(26px + 2vw);
     height: calc(26px + 2vw);
@@ -99,6 +107,36 @@ hr {
 .fsq-logo {
     width: calc(18px + 2vw);
     height: (12px + 2vw);
+}
+
+.flutter-logo {
+    width: calc(30px + 2.5vw);
+    height: calc(30px + 2.5vw);
+}
+
+.dart-logo {
+    width: calc(35px + 2.5vw);
+    height: calc(35px + 2.5vw);
+}
+
+.js-logo {
+    width: calc(22px + 2.5vw);
+    height: (22px + 2.5vw);
+}
+
+.ts-logo {
+    width: calc(22px + 2.5vw);
+    height: (22px + 2.5vw);
+}
+
+.gcp-logo {
+    width: calc(25px + 3.5vw);
+    height: (25px + 3.5vw);
+}
+
+.firebase-logo {
+    width: calc(22px + 2.5vw);
+    height: (22px + 2.5vw);
 }
 
 @media (max-height: 750px) {
