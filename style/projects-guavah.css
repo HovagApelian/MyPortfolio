@@ -139,6 +139,12 @@ hr {
     height: (22px + 2.5vw);
 }
 
+.java-logo {
+    width: calc(30px + 3vw);
+    height: (30px + 3vw);
+}
+
+
 @media (max-height: 750px) {
     .guavah-content h3 {
         font-size: calc(10px + 0.75vw);
