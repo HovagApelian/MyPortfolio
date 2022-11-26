@@ -60,6 +60,8 @@ new fullpage('#fullPage', {
             } else if (activeSlide == 3) {
                 nameLogoDynamic.textContent = "Projects\\Sensible>"
             } else if (activeSlide == 4) {
+                nameLogoDynamic.textContent = "Projects\\initOS>"
+            } else if (activeSlide == 5) {
                 nameLogoDynamic.textContent = "Projects\\Research Paper>"
             }
         } else if (destination.index == 2) {
@@ -77,7 +79,9 @@ new fullpage('#fullPage', {
                 nameLogoDynamic.textContent = "Projects\\Guavah 2.0>" 
             } else if (destination.index == 3) {
                 nameLogoDynamic.textContent = "Projects\\Sensible>"
-            } else if (destination.index == 4) {
+            } else if (destination.index  == 4) {
+                nameLogoDynamic.textContent = "Projects\\initOS>"
+            } else if (destination.index == 5) {
                 nameLogoDynamic.textContent = "Projects\\Research Paper>"
             }
         }
@@ -119,6 +123,8 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 } else if (destination.index == 4) {
+                    nameLogoDynamic2.textContent = "cd ..\\initOS"
+                } else if (destination.index == 5) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -131,6 +137,8 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 } else if (destination.index == 4) {
+                    nameLogoDynamic2.textContent = "cd ..\\initOS"
+                } else if (destination.index == 5) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -143,6 +151,8 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 } else if (destination.index == 4) {
+                    nameLogoDynamic2.textContent = "cd ..\\initOS"
+                } else if (destination.index == 5) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -155,6 +165,8 @@ new fullpage('#fullPage', {
                 } else if (destination.index == 2) {
                     nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
                 } else if (destination.index == 4) {
+                    nameLogoDynamic2.textContent = "cd ..\\initOS"
+                } else if (destination.index == 5) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -168,6 +180,22 @@ new fullpage('#fullPage', {
                     nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
                 } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                }  else if (destination.index == 5) {
+                    nameLogoDynamic2.textContent = "cd ..\\Research Paper"
+                }
+            }
+
+            if (origin.index == 5) {
+                if (destination.index == 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\"
+                } else if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 1.0"
+                } else if (destination.index == 2) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
+                } else if (destination.index == 3) {
+                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                } else if (destination.index == 4) {
+                    nameLogoDynamic2.textContent = "cd ..\\initOS"
                 }
             }
         }
