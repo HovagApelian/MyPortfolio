@@ -54,10 +54,12 @@ new fullpage('#fullPage', {
             if (activeSlide == 0) {
                 nameLogoDynamic.textContent = "Projects>"
             } else if (activeSlide == 1) {
-                nameLogoDynamic.textContent = "Projects\\Guavah>"
+                nameLogoDynamic.textContent = "Projects\\Guavah 1.0>"
             } else if (activeSlide == 2) {
-                nameLogoDynamic.textContent = "Projects\\Sensible>"
+                nameLogoDynamic.textContent = "Projects\\Guavah 2.0>"
             } else if (activeSlide == 3) {
+                nameLogoDynamic.textContent = "Projects\\Sensible>"
+            } else if (activeSlide == 4) {
                 nameLogoDynamic.textContent = "Projects\\Research Paper>"
             }
         } else if (destination.index == 2) {
@@ -70,10 +72,12 @@ new fullpage('#fullPage', {
             if (destination.index == 0) {
                 nameLogoDynamic.textContent = "Projects>"
             } else if (destination.index == 1) {
-                nameLogoDynamic.textContent = "Projects\\Guavah>"
+                nameLogoDynamic.textContent = "Projects\\Guavah 1.0>"
             } else if (destination.index == 2) {
-                nameLogoDynamic.textContent = "Projects\\Sensible>"
+                nameLogoDynamic.textContent = "Projects\\Guavah 2.0>" 
             } else if (destination.index == 3) {
+                nameLogoDynamic.textContent = "Projects\\Sensible>"
+            } else if (destination.index == 4) {
                 nameLogoDynamic.textContent = "Projects\\Research Paper>"
             }
         }
@@ -84,7 +88,7 @@ new fullpage('#fullPage', {
                 if (destination.index == 1) {
                     nameLogoDynamic2.textContent = "cd ..\\Projects\\"
                 } else if (destination.index == 2) {
-                    nameLogoDynamic2.textContent = "cd ../About"
+                    nameLogoDynamic2.textContent = "cd ..\\About"
                 }
             }
     
@@ -109,10 +113,12 @@ new fullpage('#fullPage', {
         if (section.anchor == 'projects' && !window.matchMedia("(max-width: 1110px)").matches) {
             if (origin.index == 0) {
                 if (destination.index == 1) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 1.0"
                 } else if (destination.index == 2) {
-                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
                 } else if (destination.index == 3) {
+                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                } else if (destination.index == 4) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -121,8 +127,10 @@ new fullpage('#fullPage', {
                 if (destination.index == 0) {
                     nameLogoDynamic2.textContent = "cd ..\\"
                 } else if (destination.index == 2) {
-                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
                 } else if (destination.index == 3) {
+                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                } else if (destination.index == 4) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -131,8 +139,10 @@ new fullpage('#fullPage', {
                 if (destination.index == 0) {
                     nameLogoDynamic2.textContent = "cd ..\\"
                 } else if (destination.index == 1) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 1.0" 
                 } else if (destination.index == 3) {
+                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                } else if (destination.index == 4) {
                     nameLogoDynamic2.textContent = "cd ..\\Research Paper"
                 }
             }
@@ -141,8 +151,22 @@ new fullpage('#fullPage', {
                 if (destination.index == 0) {
                     nameLogoDynamic2.textContent = "cd ..\\"
                 } else if (destination.index == 1) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah"
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 1.0"
                 } else if (destination.index == 2) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
+                } else if (destination.index == 4) {
+                    nameLogoDynamic2.textContent = "cd ..\\Research Paper"
+                }
+            }
+
+            if (origin.index == 4) {
+                if (destination.index == 0) {
+                    nameLogoDynamic2.textContent = "cd ..\\"
+                } else if (destination.index == 1) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 1.0"
+                } else if (destination.index == 2) {
+                    nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
+                } else if (destination.index == 3) {
                     nameLogoDynamic2.textContent = "cd ..\\Sensible"
                 }
             }
