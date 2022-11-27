@@ -1,6 +1,5 @@
 .sensible-logo {
   width: calc(60px + 14vw);
-  height: calc(40px + 9vw);
 }
 
 .logo-icons-sensible {
@@ -20,16 +19,8 @@
   height: calc(20px + 2.5vw);
 }
 
-@media (max-height: 750px) {
-    .sensible-logo {
-      width: calc(50px + 14vw);
-      height: calc(30px + 9vw);
-    }
-}
-
 @media  (max-width: 600px) {
   .logo-icons-sensible {
     gap: 10%;
   } 
-  
 }

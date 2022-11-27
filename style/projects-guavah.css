@@ -22,6 +22,10 @@
     width: 32vw;
 }
 
+.guavah-logo {
+    width: calc(100px + 8vw);
+}
+
 .logo-icons-guavah {
     display: inline-flex;
     justify-content: space-between;
