@@ -301,7 +301,7 @@ nav li a:hover {
 @media (max-width: 1200px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
-        margin-left: 42% !important;
+        margin-left: 43% !important;
     }
 }
 
@@ -343,28 +343,28 @@ nav li a:hover {
 @media (max-width: 500px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
-        margin-left: 34% !important;
+        margin-left: 33% !important;
     }
 }
 
 @media (max-width: 400px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
-        margin-left: 33% !important;
+        margin-left: 32% !important;
     }
 }
 
 @media (max-width: 350px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
-        margin-left: 30% !important;
+        margin-left: 28% !important;
     }
 }
 
 @media (max-width: 300px) {
     /* Modifies fullpage*/
     .fp-slidesNav ul {
-        margin-left: 22% !important;
+        margin-left: 20% !important;
     }
 }
 
