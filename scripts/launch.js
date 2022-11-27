@@ -22,7 +22,7 @@ async function animateName() {
 animateName()
 
 
-//Cycle words - abour page
+//Cycle words - about page
 const cycleWords = document.getElementsByClassName("cycle-words")[0]
 const currentTime = new Date().getHours()
 let textList
