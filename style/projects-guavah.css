@@ -72,9 +72,9 @@
     height: calc(25px + 2.5vw);
 }
 
-.js-logo {
-    width: calc(25px + 3vw);
-    height: (25px + 3vw);
+.node-logo {
+    width: calc(25px + 2.5vw);
+    height: (25px + 2.5vw);
 }
 
 .ts-logo {
