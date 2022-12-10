@@ -117,15 +117,15 @@ new fullpage('#fullPage', {
         if (section.anchor == 'projects' && !window.matchMedia("(max-width: 1110px)").matches) {
             if (origin.index == 0) {
                 if (destination.index == 1) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah 1.0"
+                    nameLogoDynamic2.textContent = "cd Guavah 1.0"
                 } else if (destination.index == 2) {
-                    nameLogoDynamic2.textContent = "cd ..\\Guavah 2.0" 
+                    nameLogoDynamic2.textContent = "cd Guavah 2.0" 
                 } else if (destination.index == 3) {
-                    nameLogoDynamic2.textContent = "cd ..\\Sensible"
+                    nameLogoDynamic2.textContent = "cd Sensible"
                 } else if (destination.index == 4) {
-                    nameLogoDynamic2.textContent = "cd ..\\initOS"
+                    nameLogoDynamic2.textContent = "cd initOS"
                 } else if (destination.index == 5) {
-                    nameLogoDynamic2.textContent = "cd ..\\Research Paper"
+                    nameLogoDynamic2.textContent = "cd Research Paper"
                 }
             }
 
