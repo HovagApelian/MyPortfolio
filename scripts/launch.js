@@ -13,7 +13,7 @@ function sleep(duration) {
 //animate name - home page
 async function animateName() {
     const name = document.getElementsByClassName("tracking-in-expand")[0]
-    await sleep(1) 
+    await sleep(1)
     name.classList.remove("tracking-in-expand")
     await sleep(3)
     arrowLottie.classList.remove("hidden")
@@ -28,13 +28,13 @@ const currentTime = new Date().getHours()
 let textList
 
 if (currentTime >= 5 && currentTime < 12) {
-    textList = ["Good morning", "Բարի լոյս", "Buenos Dias", "صباح الخير"]
+    textList = ["Good morning", "Բարի լոյս", "صباح الخير"]
 } else if (currentTime >= 12 && currentTime < 16) {
-    textList = ["Good afternoon", "Բարեւ", "Buenos Tardes", "مرحبا"]
+    textList = ["Good afternoon", "Բարեւ", "مرحبا"]
 } else if (currentTime >= 18 && currentTime < 22) {
-    textList = ["Good evening", "Բարի իրիկուն", "Buenos noches", "مساء الخير"]
+    textList = ["Good evening", "Բարի իրիկուն", "مساء الخير"]
 } else {
-    textList = ["Hello", "Բարեւ", "Hola", "مرحبا", "What's good", "سلام عليكم"]
+    textList = ["Hello", "Բարեւ", "مرحبا", "What's poppin"]
 }
 
 let i = 0
